@@ -1,0 +1,19 @@
+name: api_client
+description: "Dio-based HTTP client with auth refresh, retry, logging and typed error mapping."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+  dio:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:

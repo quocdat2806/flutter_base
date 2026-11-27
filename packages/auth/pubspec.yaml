@@ -1,0 +1,21 @@
+name: auth
+description: "Authentication session management: login, token persistence, single-flight refresh, auth status stream."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+  api_client:
+  storage:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  flutter_secure_storage:

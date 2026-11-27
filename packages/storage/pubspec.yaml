@@ -1,0 +1,23 @@
+name: storage
+description: "Local persistence: key-value (shared_preferences), secrets (flutter_secure_storage) and relational DB (sqflite)."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+  shared_preferences:
+  flutter_secure_storage:
+  sqflite:
+  path:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  shared_preferences_platform_interface:
+  sqflite_common_ffi:

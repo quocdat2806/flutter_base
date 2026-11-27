@@ -1,0 +1,75 @@
+name: company_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+workspace:
+  - apps/customer_support
+  - apps/patient
+  - ui_kit/widgetbook
+  - packages/analytics
+  - packages/app_core
+  - packages/api_client
+  - packages/auth
+  - packages/repositories
+  - packages/storage
+  - packages/utils
+  - packages/core
+  - ui_kit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  lints: ^6.1.0
+  build_runner: ^2.17.1
+  freezed: ^4.0.3
+  json_serializable: ^6.15.2
+  retrofit_generator: ^10.0.1
+  melos: ^8.10.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^2.0.0 
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+  go_router: ^18.1.4
+  retrofit: ^4.9.0
+  dio: ^5.11.1
+  intl: ^0.20.3
+  path_provider: ^2.1.6
+  url_launcher: ^6.3.3
+  shared_preferences: ^2.5.6
+  flutter_svg: ^2.3.2
+  crypto: ^3.0.8  
+  uuid: ^4.6.0
+  image_picker: ^1.2.4
+  flutter_secure_storage: ^11.2.0
+  permission_handler: ^13.0.2
+  firebase_core: ^5.1.0
+  connectivity_plus: ^7.3.2
+  google_fonts: ^9.0.0
+  webview_flutter: ^4.14.1
+  flutter_bloc: ^9.1.1
+  widgetbook: ^3.25.0
+  sentry_flutter: ^10.4.0
+  logger: ^2.8.0
+  fpdart: ^1.2.0
+  relic_headers: ^2.0.1
+  dap_adapters: ^1.1.0
+  tar: ^2.1.0
+  listen: ^1.0.1
+  safe_url_check: ^1.1.2
+  # pana: ^0.23.19
+  checks: ^0.4.0
+  material_ui: ^1.11.1
+  web_socket: ^1.0.1
+  web_socket_channel: ^3.0.3
+  sqflite: ^2.4.6
+  cached_network_image: ^4.0.7
+  flutter_cache_manager: ^3.5.0
+  sqflite_common_ffi: ^2.4.7
+  shared_preferences_platform_interface: ^2.4.2
+  path: ^1.9.1

@@ -1,0 +1,24 @@
+name: core
+description: "Pure-Dart foundation: Result type, exception hierarchy, use case contract, config and logging."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+# Runtime dependencies must stay pure Dart: no Flutter SDK, no plugins.
+dependencies:
+  freezed_annotation:
+  json_annotation:
+  dio:
+  fpdart:
+
+dev_dependencies:
+  # Tests only. `package:test` can't be resolved in this workspace: the
+  # version matching Flutter's pinned test_api needs analyzer < 14, while
+  # build_runner needs analyzer >= 14.
+  build_runner:
+  freezed: 
+  json_serializable:
+  lints:
